@@ -2,13 +2,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-  
+
 <!-- Mirrored from www.chrisbarrettdesign.com/textiles by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Mar 2018 20:37:30 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 <link rel="canonical" href="textiles.html" /><link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon1.gif" type="image/gif" />
-<title>Chris Barrett Textiles | Chris Barrett Design</title>
+<title>Textiles | Textile Love</title>
 
 
 <base  />
@@ -35,7 +35,7 @@
 </script>
 <style type="text/css">
 /* enable background image caching in IE6 */
-html {filter:expression(document.execCommand("BackgroundImageCache", false, true));} 
+html {filter:expression(document.execCommand("BackgroundImageCache", false, true));}
 </style>
 <![endif]-->
 
@@ -54,17 +54,10 @@ html {filter:expression(document.execCommand("BackgroundImageCache", false, true
 
   </head>  <body>
     <div id="header">
-	            <a id="logo" href="index.html" class="textiles">Chris Barrett Design</a>
-				 
+	            <a id="logo" href="index.html" class="textiles">Textile Love</a>
+
 
 <ul id="menu">
-
-
-
-<li><a href="about.html"><span>ABOUT</span></a>
-
-
-</li>
 
 
 <li><a href="projects.html"><span>PROJECTS</span></a>
@@ -79,23 +72,12 @@ html {filter:expression(document.execCommand("BackgroundImageCache", false, true
 </li>
 
 
-<li><a href="press.html"><span>PRESS</span></a>
-
-
-</li>
-
-
 <li><a href="showrooms.html"><span>SHOWROOMS</span></a>
 
 
 </li>
 
 
-<li><a href="contact.html"><span>CONTACT</span></a>
-
-
-<li><a href="http://www.chrisbarrettcurated.com/" target="_blank"><span>SHOP</span></a></li>
-</li>
 </ul>
 
 		</div>
@@ -313,7 +295,7 @@ div.checkb.checked span.cb {
 			</div>
 						<div class="checkb" rel="26">
 				<span class="cb"></span>
-				performance 
+				performance
 			</div>
 						<div class="checkb" rel="28">
 				<span class="cb"></span>
@@ -321,7 +303,7 @@ div.checkb.checked span.cb {
 			</div>
 						<div class="checkb" rel="29">
 				<span class="cb"></span>
-				Sheer 
+				Sheer
 			</div>
 						</div>
 		</div>
@@ -371,7 +353,7 @@ div.checkb.checked span.cb {
 	<div id="textiles_list">
 				<div id="loadmore"></div>
 	</div>
-	
+
 <script type="text/javascript">
 
 	var relative_width = 980;
@@ -397,7 +379,7 @@ div.checkb.checked span.cb {
 			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
-	
+
 	$(document).ready( function() {
 		$('.filter_submenu').each( function() {
 			$(this).css({
@@ -413,16 +395,16 @@ div.checkb.checked span.cb {
 				}
 			});
 		});
-		
-		
+
+
 					load_products(true);
 			resize_stuff();
-				
-		
+
+
 		$(window).resize( function() {
 			resize_stuff();
 		});
-		
+
 		 $(window).scroll( function() {
 			//console.log($(window).scrollTop()+' - '+$('body').height());
 			//if(!$('#loadmore').hasClass('loading') && isScrolledIntoView('#loadmore')) {
@@ -433,7 +415,7 @@ div.checkb.checked span.cb {
 				}
 			}
 		});
-		
+
 		$('.gal_menu a.menu').click( function() {
 			if($(this).hasClass('current')) {
 				return false;
@@ -454,7 +436,7 @@ div.checkb.checked span.cb {
 			}
 			$('.gal_menu a.current').removeClass('current');
 			$(this).addClass('current');
-			
+
 			if($(this).attr('rel')=='all' || $(this).attr('empty')=="1") {
 				$('.checkb.checked').removeClass('checked');
 				$('.textile_box').remove();
@@ -474,7 +456,7 @@ div.checkb.checked span.cb {
 			$('#loadmore').removeClass('loading').removeClass('inactive');
 			load_products(true);
 		});
-		
+
 		$('#search_keyword').focus( function() {
 			if($(this).val()=='Search by keywords') {
 				$(this).val('');
@@ -503,7 +485,7 @@ div.checkb.checked span.cb {
 			}
 		});
 	});
-	
+
 	function load_products(skip_when_loading) {
 		if($('#loadmore').hasClass('inactive')) {
 			return;
@@ -562,7 +544,7 @@ div.checkb.checked span.cb {
 			}
 		});
 	}
-	
+
 	function resize_stuff() {
 		$('#header').width( $(window).width()-100 );
 		$('.gal_menu').width( $(window).width()-110 );
@@ -571,7 +553,7 @@ div.checkb.checked span.cb {
 			update_wihe($(this));
 		});
 	}
-	
+
 	function update_wihe(el) {
 		el.parents('.img').width(el.parents('.img').width());
 		el.parents('.img').height(el.parents('.img').height());
@@ -582,7 +564,7 @@ div.checkb.checked span.cb {
 		el.parents('.textile_box').find('.rollover div:eq(0)').width( el.parents('.img').width() );
 		el.parents('.textile_box').find('.rollover div:eq(0)').height( el.parents('.img').height() );
 		el.parents('.textile_box').height( el.parents('.img').height() );
-		
+
 		$('#textiles_list .textile_box').each( function() {
 			if($(this).index()%3==0) {
 				$(this).css('clear','left');
@@ -606,7 +588,7 @@ div.checkb.checked span.cb {
 				$(this).find('.rollover').fadeOut(500);
 		});
 	}
-	
+
 	function isScrolledIntoView(elem) {
 		var docViewTop = jQuery(window).scrollTop();
 		var docViewBottom = docViewTop + jQuery(window).height();
@@ -618,7 +600,7 @@ div.checkb.checked span.cb {
 	}
 
 </script>
-	
+
 		</div>
 
          <div id="footer">
@@ -638,17 +620,17 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 <!--[if lte IE 7]>
 <style type="text/css">
 	#social .register .register_form #mc-embedded-subscribe{
-		line-height: 12px !important;		
+		line-height: 12px !important;
 		font-family:arial!important;
 		border:none!important;
 	}
-	
+
 	.form_container{
 		border:1px solid #ccc;
 	}
 
 .contact_register .register_form #mc-embedded-subscribe{
-		line-height: 12px !important;		
+		line-height: 12px !important;
 		font-family:arial!important;
 		border:none!important;
 	}
@@ -659,7 +641,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 height:24px;
 float:left;
 	}
-	
+
 	.register_form #mce-EMAIL{
 		line-height: 24px !important;
 		border-left:none!important;
@@ -672,5 +654,4 @@ float:left;
 
   <script id="tagjs" type="text/javascript">(function () {var tagjs = document.createElement("script");var s = document.getElementsByTagName("script")[0];tagjs.async = true;tagjs.src = "http://deluxe.script.ag/tag.js#site=0M6ZVb2";s.parentNode.insertBefore(tagjs, s);}());</script><noscript><iframe src="http://s.thebrighttag.com/iframe?c=0M6ZVb2" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></noscript></body>
 
-<!-- Mirrored from www.chrisbarrettdesign.com/textiles by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 01 Mar 2018 20:37:33 GMT -->
 </html>
