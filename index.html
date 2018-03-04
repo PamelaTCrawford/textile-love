@@ -12,8 +12,6 @@
 <base  />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<meta name="description" content="Chris Barrett Design is a Los Angeles Interior Design company that specializes in high end residential and boutique commercial spaces"/>
-<meta name="keywords" content="Los Angeles Interior Designer, California Coastal Design, Los Angeles Architecture and Interiors, Outdoor Fabrics and Textiles, Santa Monica Designers, Architectural Digest Designers, High End Residential Designer, Restaurant and Hotel Designer, Comme Ca Designer, Hotel Oceana Designer "/>
 
 <link rel="stylesheet" type="text/css" href="stylesheet7452.css?cssid=50" />
 
@@ -23,18 +21,17 @@
 
 
 <!--[if IE 6]>
-<script type="text/javascript" src="modules/MenuManager/CSSMenu.js"></script>
-<![endif]-->
+<!-- <script type="text/javascript" src="modules/MenuManager/CSSMenu.js"></script> -->
+<!-- <![endif]--> -->
 
 
-<!--[if IE 6]>
 <script type="text/javascript"  src="uploads/NCleanBlue/js/ie6fix.js"></script>
 <script type="text/javascript">
- // argument is a CSS selector
+ argument is a CSS selector
  DD_belatedPNG.fix('.sbar-top,.sbar-bottom,.main-top,.main-bottom,#version');
 </script>
 <style type="text/css">
-/* enable background image caching in IE6 */
+enable background image caching in IE6
 html {filter:expression(document.execCommand("BackgroundImageCache", false, true));}
 </style>
 <![endif]-->
@@ -87,22 +84,22 @@ html {filter:expression(document.execCommand("BackgroundImageCache", false, true
 	<script type="text/javascript">
 
 $(document).ready( function() {
-	/*
+	// /*
 	$(window).resize(function() {
 		$('#slideshow').height(($(window).height()-130-50)+'px');
 	});
 	*/
-	//$('#slideshow').height(($(window).height()-120-90)+'px');
-	//alert($('#slideshow img:first-child').height());
-	//$('#slideshow').width(($(window).width()-100)+'px');
+	$('#slideshow').height(($(window).height()-120-90)+'px');
+	alert($('#slideshow img:first-child').height());
+	$('#slideshow').width(($(window).width()-100)+'px');
 
 	var i=0;
 	$('#slideshow img').each( function() {
-		//$(this).attr('src', $(this).attr('src')+'&w='+(screen.width-100));
-		//if(i==0) setTimeout(function() { $('#slideshow').height($(this).height()+'px'); }, 500);
+		$(this).attr('src', $(this).attr('src')+'&w='+(screen.width-100));
+		if(i==0) setTimeout(function() { $('#slideshow').height($(this).height()+'px'); }, 500);
 		if(i==0) {
-			//setTimeout(function() { $('#slideshow').height(($(window).height()-120-90)+'px'); }, 100);
-		//	setTimeout(function() { $('#slideshow').width(($(window).width()-100)+'px'); }, 100);
+			setTimeout(function() { $('#slideshow').height(($(window).height()-120-90)+'px'); }, 100);
+			setTimeout(function() { $('#slideshow').width(($(window).width()-100)+'px'); }, 100);
 		}
 		i=1;
 	});
